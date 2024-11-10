@@ -82,10 +82,14 @@ memory.dump((state, action, reward, next_state))
 batch = memory.sample(batch_size=32)
 
 
-Future Enhancements
-Implement Deep Q-Learning to train an AI agent to play Connect-X.
-Add advanced reinforcement learning techniques such as:
-Experience Replay: Randomized sampling for better training.
-Self-Play: Train the agent using AlphaGo-inspired evaluation phases.
-Policy Optimization: Fine-tune the policy for higher rewards.
+Future Enhancements:
+-Implement Deep Q-Learning to train an AI agent to play Connect-X.
+
+-Add advanced reinforcement learning techniques such as:
+
+-Experience Replay: Randomized sampling for better training.
+
+-Self-Play: Train the agent using AlphaGo-inspired evaluation phases.
+
+-Policy Optimization: Fine-tune the policy for higher rewards.
 
