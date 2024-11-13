@@ -82,6 +82,8 @@ memory.dump((state, action, reward, next_state))
 batch = memory.sample(batch_size=32)
 
 4. Visualizations
+
+   
    ![image](https://github.com/user-attachments/assets/1e30e225-0768-4b53-8727-2f8e1a4a90b6)
 
 Future Enhancements:
